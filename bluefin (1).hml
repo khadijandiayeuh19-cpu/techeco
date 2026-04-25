@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ecotech — Énergie solaire, électrique & sécurité</title>
+  <meta name="description" content="Ecotech propose des solutions solaires, électriques et sécurité pour entreprises et particuliers." />
+
+  <!-- Couleurs de thème -->
+  <meta name="theme-color" content="#0A3D62" />
+
+  <!-- Styles -->
+  <link rel="preload" href="CSS/styles.css" as="style" />
+  <link rel="stylesheet" href="CSS/styles.css" />
+</head>
+<body>
+  <!-- Barre d'annonce -->
+  <div class="topbar">
+    <div class="container">
+      <span>Ecotech • Solutions solaires, électriques & sécurité • Dakar</span>
+      <a class="cta" href="#contact">Demander un devis</a>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#hero" aria-label="Accueil Ecotech">
+        <img src="copilot1.png" alt="Ecotech" />
+      </a>
+      <nav class="menu" aria-label="Navigation principale">
+        <a href="#solutions">Solutions</a>
+        <a href="#produits">Produits</a>
+        <a href="#projets">Projets</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#contact" class="btn btn-primary">Contact</a>
+      </nav>
+      <button class="burger" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Alimentez vos projets avec l’énergie solaire Ecotech</h1>
+        <p>Conception, installation et maintenance de systèmes solaires, électriques et sécurité. Performance mesurée, service fiable.</p>
+        <div class="hero-actions">
+          <a href="#solutions" class="btn btn-primary">Découvrir nos solutions</a>
+          <a href="#contact" class="btn btn-outline">Obtenir un devis</a>
+        </div>
+        <div class="hero-highlights">
+          <div class="item">Garantie produit</div>
+          <div class="item">Études techniques</div>
+          <div class="item">Support local</div>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="Capturen.PNG" alt="Installation solaire Ecotech" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Solutions -->
+  <section id="solutions" class="section">
+    <div class="container">
+      <h2>Nos solutions clés en main</h2>
+      <p>Ecotech couvre l’ensemble de la chaîne de valeur : audit, dimensionnement, installation et suivi.</p>
+      <div class="cards">
+        <article class="card">
+          <img src="Capturei.PNG" alt="Autoconsommation" />
+          <h3>Autoconsommation résidentielle & tertiaire</h3>
+          <p>Réduisez vos factures avec des systèmes solaires adaptés à votre profil de consommation.</p>
+          <ul class="features">
+            <li><strong>Étude:</strong> Profil de charge & ensoleillement</li>
+            <li><strong>Matériel:</strong> Panneaux + onduleurs + fixation</li>
+            <li><strong>Suivi:</strong> Monitoring en temps réel</li>
+          </ul>
+        </article>
+        <article class="card">
+          <img src="Captureg.PNG" alt="Stockage" />
+          <h3>Stockage & onduleurs hybrides</h3>
+          <p>Assurez la continuité de service avec des batteries optimisées et onduleurs intelligents.</p>
+          <ul class="features">
+            <li><strong>Continuité:</strong> Secours automatique</li>
+            <li><strong>Dimensionnement:</strong> kWh & cycles</li>
+            <li><strong>Intégration:</strong> Réseau & solaire</li>
+          </ul>
+        </article>
+        <article class="card">
+          <img src="télécharger.webp" alt="Sécurité" />
+          <h3>Sécurité & surveillance</h3>
+          <p>Vidéosurveillance, contrôle d’accès et alarmes pour protéger vos sites et actifs.</p>
+          <ul class="features">
+            <li><strong>Caméras:</strong> IP, dôme, PTZ</li>
+            <li><strong>Accès:</strong> Badges & biométrie</li>
+            <li><strong>Alertes:</strong> Cloud & local</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produits -->
+  <section id="produits" class="section section-alt">
+    <div class="container">
+      <h2>Produits recommandés</h2>
+      <div class="product-grid">
+        <article class="product">
+          <img src="Captureq.PNG" alt="Panneau 450W" />
+          <h3>Panneaux photovoltaïques 450–560 W</h3>
+          <p>Haute efficacité, verre trempé, garantie 25 ans.</p>
+          <div class="specs">
+            <span><strong>Puissance:</strong> 450–560 W</span>
+            <span><strong>Rendement:</strong> 20–22 %</span>
+            <span><strong>Dimensions:</strong> 2100×1050 mm</span>
+          </div>
+          <a href="#contact" class="btn btn-outline">Demander le prix</a>
+        </article>
+        <article class="product">
+          <img src="Capturej.PNG" alt="Onduleur hybride" />
+          <h3>Onduleurs hybrides 3–10 kW</h3>
+          <p>MPPT multiples, monitoring, compatibilité batteries lithium.</p>
+          <div class="specs">
+            <span><strong>Entrées PV:</strong> 2–4 MPPT</span>
+            <span><strong>Réseau:</strong> Monophasé / Triphasé</span>
+            <span><strong>Comms:</strong> Wi‑Fi / RS485</span>
+          </div>
+          <a href="#contact" class="btn btn-outline">Demander le prix</a>
+        </article>
+        <article class="product">
+          <img src="Captureg.PNG" alt="Batterie LFP" />
+          <h3>Batteries LFP 5–15 kWh</h3>
+          <p>Longue durée de vie, BMS avancé, extension modulaire.</p>
+          <div class="specs">
+            <span><strong>Capacité:</strong> 5–15 kWh</span>
+            <span><strong>Cycles:</strong> 6000+</span>
+            <span><strong>Garantie:</strong> 10 ans</span>
+          </div>
+          <a href="#contact" class="btn btn-outline">Demander le prix</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section id="projets" class="section">
+    <div class="container">
+      <h2>Études & réalisations</h2>
+      <div class="case-grid">
+        <article class="case">
+          <img src="Capturek.PNG" alt="Projet résidentiel" />
+          <h3>Résidentiel — 5 kW Dakar</h3>
+          <p>Autoconsommation avec stockage 10 kWh, suivi de performance sur 12 mois.</p>
+          <a href="#" class="link">Voir le cas</a>
+        </article>
+        <article class="case">
+          <img src="Captureo.PNG" alt="Projet bureau" />
+          <h3>Tertiaire — 30 kW Plateau</h3>
+          <p>Réduction de 45 % de la facture, intégration onduleurs triphasés.</p>
+          <a href="#" class="link">Voir le cas</a>
+        </article>
+        <article class="case">
+          <img src="Capturep.PNG" alt="Projet agro" />
+          <h3>Agro — Pompage solaire</h3>
+          <p>Solution de pompage avec variateurs, optimisation saisonnière.</p>
+          <a href="#" class="link">Voir le cas</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section id="a-propos" class="section section-alt">
+    <div class="container about">
+      <div>
+        <h2>Ecotech en bref</h2>
+        <p>Nous allions ingénierie et terrain pour livrer des systèmes fiables, mesurables et évolutifs. Notre équipe vous accompagne de l’étude à la maintenance.</p>
+        <ul class="list">
+          <li><strong>Expertise:</strong> Solaire, électricité, sécurité</li>
+          <li><strong>Process:</strong> Audit, conception, installation, suivi</li>
+          <li><strong>Qualité:</strong> Matériels certifiés, garanties</li>
+        </ul>
+      </div>
+      <div class="stats">
+        <div class="stat"><span>50+</span><small>projets livrés</small></div>
+        <div class="stat"><span>30%</span><small>économie moyenne</small></div>
+        <div class="stat"><span>10 ans</span><small>d’expérience combinée</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact">
+      <h2>Contact & devis</h2>
+      <p>Parlez‑nous de votre besoin. Nous vous répondons sous 24–48 h ouvrées.</p>
+      <form action="contact.php" method="POST">
+        <div class="form-row">
+          <label for="name">Nom complet</label>
+          <input id="name" name="name" type="text" placeholder="Votre nom" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="votre@email.com" required />
+        </div>
+        <div class="form-row">
+          <label for="phone">Téléphone</label>
+          <input id="phone" name="phone" type="tel" placeholder="+221 ..." />
+        </div>
+        <div class="form-row">
+          <label for="message">Votre projet</label>
+          <textarea id="message" name="message" rows="4" placeholder="Puissance souhaitée, lieu, délai..."></textarea>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Envoyer</button>
+          <small>En envoyant ce formulaire, vous acceptez notre politique de confidentialité.</small>
+        </div>
+      </form>
+      <div class="contact-info">
+        <p><strong>Adresse:</strong> En face rond point sedima, Rufisque, Dakar</p>
+        <p><strong>Email:</strong> ecotechc6@gmail.com</p>
+        <p><strong>Téléphone:</strong> +221 76 391 27 27 / 77 474 49 54 / 77 597 72 64</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="copilot1.png" alt="Ecotech" class="logo-footer" />
+        <p>Énergie propre, service précis.</p>
+      </div>
+      <div>
+        <h4>Liens</h4>
+        <ul>
+          <li><a href="#solutions">Solutions</a></li>
+          <li><a href="#produits">Produits</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Légal</h4>
+        <ul>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Politique de confidentialité</a></li>
+          <li><a href="#">CGV</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© Ecotech, 2018. Tous droits réservés.</small>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js" defer></script>
+</body>
+</html>

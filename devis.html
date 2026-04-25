@@ -1,0 +1,35 @@
+<section class="devis">
+  <h2>Demande de devis</h2>
+
+  <form id="devisForm">
+    
+    <div class="appareil">
+      <label>
+        <input type="checkbox" name="appareil" value="Frigo" onclick="toggleInput(this, 'frigoQty')">
+        Frigo
+      </label>
+      <input type="number" id="frigoQty" placeholder="Quantité" min="1" style="display:none;">
+    </div>
+
+    <div class="appareil">
+      <label>
+        <input type="checkbox" name="appareil" value="Climatiseur" onclick="toggleInput(this, 'climQty')">
+        Climatiseur
+      </label>
+      <input type="number" id="climQty" placeholder="Quantité" min="1" style="display:none;">
+    </div>
+
+    <div class="appareil">
+      <label>
+        <input type="checkbox" name="appareil" value="Lampe" onclick="toggleInput(this, 'lampeQty')">
+        Lampe
+      </label>
+      <input type="number" id="lampeQty" placeholder="Quantité" min="1" style="display:none;">
+    </div>
+
+    <br>
+    <button type="submit">Envoyer la demande</button>
+  </form>
+
+  <div id="resultat"></div>
+</section>
